@@ -1,5 +1,5 @@
-const CACHE = "alphabet-tankentai-v1";
-const ASSETS = ["./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest", "./icon.svg"];
+const CACHE = "alphabet-tankentai-v2";
+const ASSETS = ["./", "./index.html", "./styles.css", "./app.js", "./review.js", "./manifest.webmanifest", "./icon.svg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
