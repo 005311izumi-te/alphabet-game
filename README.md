@@ -37,4 +37,4 @@ python -m http.server 8000
 
 ## GitHub Pages
 
-`.github/workflows/pages.yml` を同梱しています。Repository の **Settings → Pages → Build and deployment → Source** を **GitHub Actions** にすると公開できます。
+このリポジトリは `main` ブランチから GitHub Pages で公開する構成です。`main` に更新が入ると、GitHub 標準の Pages ビルドが走ります。
