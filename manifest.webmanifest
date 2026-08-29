@@ -1,0 +1,18 @@
+{
+  "name": "アルファベット たんけんたい",
+  "short_name": "たんけんたい",
+  "description": "きいて、えらんで、かいて、アルファベットと なかよくなる ゲーム",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ff",
+  "theme_color": "#6558f5",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
